@@ -1,0 +1,94 @@
+body {
+    font-family: 'Great Vibes', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0;
+    background-image: url('copy2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.599);
+    padding: 50px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Increased width */
+    text-align: center;
+}
+
+#header-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 15px; /* Increased padding */
+    width: 80%;
+    margin-bottom: 15px; /* Increased margin */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 15px 30px; /* Increased padding */
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 5px; /* Adjust padding as needed */
+    margin-bottom: 15px; /* Adjust margin as needed */
+    border-radius: 4px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between;
+}
+
+li.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button.delete {
+    background-color: white;
+    margin-left: 15px; /* Adjust margin as needed */
+}
+
+button.delete:hover {
+    background-color: #e0413cc6;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 15px;
+    height: 25px;
+    width: 49px;
+    
+} 
+
+
+
+p {
+    margin-top: 30px; /* Increased margin */
+    font-size: 60px; /* Increased font size */
+    font-style: italic;
+    margin-left: 10%;
+}
